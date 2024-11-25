@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+}
+
+/* << Container div stylization / Estilização da div contêiner >> */
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* << Card stylization / Estilização da div do cartão >> */
+
+.container .card {
+    width: 435px;
+    height: 615px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+/* << Profile image stylization / Estilização da imagem de perfil >> */
+
+.container .card .profile-image img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* << Profile name stylization / estilização do nome >> */
+
+.container .card .profile-info .profile-name {
+    font-family: "font";
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0;
+}
+
+/* << Location information stylization / Estilização de informação de localização >> */
+
+.container .card .profile-info p {
+    text-align: center;
+    font-family: "font";
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: 5;
+}
+
+/* << Biographical information stylization / Estilização da bio >> */
+
+
+.container .card .bio p {
+    font-family: "font";
+    font-weight: 400;
+    color:  hsl(0, 0%, 100%);
+}
+
+/* << Social media section stylization / Estilização da seção de redes sociais >> */
+
+.container .card .social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.container .card .social-media a {
+    width: 340px;
+    font-family: "font";
+    font-weight: 600;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.container .card .social-media a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    transition: ease-in 0.3s;
+    transition: ease-out 0.8s;
+}

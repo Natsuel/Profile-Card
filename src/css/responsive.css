@@ -1,0 +1,28 @@
+@media (max-width: 376px) {
+    /* <<  Change in body font-size / Alteração do tamanho da fonte do corpo da página >> */
+
+    body {
+        font-size: 12px;
+    }
+
+    /* Change in profile card resolution / Alteração da resolução da seção do cartão de perfil */
+
+    .container .card {
+        width: 305px;
+        height: 530px;
+    }
+
+    /* << Change social media section width / Alteração da largura da seção de redes sociais >> */
+
+    .container .card .social-media a {
+        width: 260px;
+        font-family: "font";
+        font-weight: 600;
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(0, 0%, 20%);
+        padding: 12px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+}
